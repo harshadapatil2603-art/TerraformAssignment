@@ -1,0 +1,45 @@
+# ======================
+# Terraform
+# ======================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# ======================
+# Python
+# ======================
+
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/.venv/
+venv/
+
+# ======================
+# Node.js
+# ======================
+
+frontend/node_modules/
+npm-debug.log*
+
+# ======================
+# OS Files
+# ======================
+
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE
+# ======================
+
+.vscode/
+.idea/
