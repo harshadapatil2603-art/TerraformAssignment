@@ -1,8 +1,25 @@
-# Terraform
+# Terraform working directory
 .terraform/
+
+# State files
 *.tfstate
 *.tfstate.*
-terraform.tfvars
-terraform.tfvars.json
-.terraform.lock.hcl
+
+# Plan files
+*.tfplan
+
+# Crash logs
 crash.log
+
+# Variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Keys
+*.pem
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
