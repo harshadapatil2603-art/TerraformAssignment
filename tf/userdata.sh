@@ -22,13 +22,13 @@ apt install nodejs -y
 
 cd /home/ubuntu
 
-git clone https://github.com/USERNAME/YOUR-REPO.git
+git clone https://github.com/harshadapatil2603-art/TerraformAssignment.git
 
 ####################################
 # Backend
 ####################################
 
-cd YOUR-REPO/backend
+cd TerraformAssignment/flask/backend
 
 python3 -m venv venv
 
