@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Variables containing secrets
+terraform.tfvars
+
+# Environment files
+.env
+
+# macOS
+.DS_Store
